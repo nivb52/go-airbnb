@@ -1,0 +1,38 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns:
+        minmax(1px, 1fr) minmax(auto, 90vw) minmax(1px, 1fr);
+
+    >* {
+        grid-column: 2;
+    }
+
+    &.full {
+        grid-column: 1/-1;
+    }
+}
+
+header {
+    &.detailsContainer {
+        position: absolute;
+    }
+}
+
+.detailsContainer {
+    margin: 0;
+    display: grid;
+    grid-template-columns:
+        minmax(16px, 1fr) minmax(auto, 1120px) minmax(16px, 1fr);
+
+    >* {
+        grid-column: 2;
+    }
+
+    &.full {
+        grid-column: 1/-1;
+    }
+}
+
+.home {
+    padding: 0;
+}

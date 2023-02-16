@@ -1,0 +1,127 @@
+.stay-preview {
+    padding: 0;
+    width: 100%;
+    max-width: 415px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    svg{
+        &.red{
+            fill: $clr1 !important;
+        }
+    }
+    .details{
+        white-space: nowrap;
+        text-overflow:ellipsis;
+        max-width: 80%;
+        overflow: hidden;
+    }
+    .preview-img {
+        object-fit: cover;
+        width: 100%;
+        aspect-ratio: 1.0526;
+    }
+
+    h1 {
+        font-size: 15px;
+        font-family: cereal-semi-light;
+        font-weight: 600;
+        line-height: 1.2rem;
+        max-width: 80%;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }
+
+    p {
+        font-size: 15px;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+        overflow: hidden;
+
+        &:not(.price-preview) {
+            line-height: 1.4rem;
+            color: $clr7;
+            font-weight: 400;
+        }
+    }
+
+    .price-preview {
+        padding-top: 3px;
+        font-weight: 600;
+      
+        svg{
+       
+        }
+        
+       
+        span {
+            font-weight: lighter;
+        }
+    }
+    .stay-rating{
+        margin-inline-end: 0.2rem;
+        font-size: 1rem;
+    }
+    .reviews-length{
+        padding-inline: 0.05rem;
+        font-size: 1rem;
+    }
+    .rating {
+        p {
+            color: black;
+        }
+    }
+}
+
+.el-carousel__indicators {
+    display: flex;
+
+    .el-carousel__button {
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+    }
+}
+
+.el-carousel__arrow--left,
+.el-carousel__arrow--right {
+    background-color: rgb(243, 237, 237);
+    color: black;
+    transition: 0.2s;
+
+    &:hover {
+        background-color: white;
+        height: 37px;
+        width: 37px;
+    }
+}
+
+@media (max-width:750px){
+    .el-carousel__arrow--left,
+.el-carousel__arrow--right{
+    background-color: rgba(197, 191, 191, 0.985);
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+.el-carousel__arrow--right{
+    display: unset !important;
+}
+}
+
+.el-carousel_item {
+    height: auto;
+    aspect-ratio: 1.0526 !important;
+}
+
+.el-carousel__container {
+    height: auto;
+    aspect-ratio: 1.0526 !important;
+}
+
+
+
+@media (max-width:595px){
+    .stay-preview{
+        max-width: none;
+    }
+}
