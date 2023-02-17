@@ -1,0 +1,1311 @@
+lockfileVersion: 5.4
+
+specifiers:
+  bcrypt: ^5.1.0
+  cookie-parser: ^1.4.4
+  cors: ^2.8.5
+  cryptr: ^6.0.3
+  express: ^4.17.1
+  express-session: ^1.17.2
+  express-socket.io-session: ^1.3.5
+  mongodb: ^3.6.3
+  nodemon: ^2.0.15
+  socket.io: ^4.4.1
+
+dependencies:
+  bcrypt: 5.1.0
+  cookie-parser: 1.4.6
+  cors: 2.8.5
+  cryptr: 6.1.0
+  express: 4.18.2
+  express-session: 1.17.3
+  express-socket.io-session: 1.3.5
+  mongodb: 3.7.3
+  socket.io: 4.6.0
+
+devDependencies:
+  nodemon: 2.0.20
+
+packages:
+
+  /@mapbox/node-pre-gyp/1.0.10:
+    resolution: {integrity: sha1-jmc1zOu7FYHlp+ZSJEytyKhE0Dw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.10.tgz}
+    hasBin: true
+    dependencies:
+      detect-libc: 2.0.1
+      https-proxy-agent: 5.0.1
+      make-dir: 3.1.0
+      node-fetch: 2.6.9
+      nopt: 5.0.0
+      npmlog: 5.0.1
+      rimraf: 3.0.2
+      semver: 7.3.8
+      tar: 6.1.13
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: false
+
+  /@socket.io/component-emitter/3.1.0:
+    resolution: {integrity: sha1-lhFvKpEuDAKBc0WzwQdRBpkg1VM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz}
+    dev: false
+
+  /@types/cookie/0.4.1:
+    resolution: {integrity: sha1-v9AsHyIkVnZ2wVRRmfh8OoYdh40=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@types/cookie/-/cookie-0.4.1.tgz}
+    dev: false
+
+  /@types/cors/2.8.13:
+    resolution: {integrity: sha1-uK3iK6RVobjLO10/NZEP0gT4T5Q=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@types/cors/-/cors-2.8.13.tgz}
+    dependencies:
+      '@types/node': 18.13.0
+    dev: false
+
+  /@types/node/18.13.0:
+    resolution: {integrity: sha1-BADR5s6H6dMDLBnrbFggWw0/eFA=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@types/node/-/node-18.13.0.tgz}
+    dev: false
+
+  /abbrev/1.1.1:
+    resolution: {integrity: sha1-+PLIh60Qv2f2NPAFtph/7TF5qsg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/abbrev/-/abbrev-1.1.1.tgz}
+
+  /accepts/1.3.8:
+    resolution: {integrity: sha1-C/C+EltnAUrcsLCSHmLbe//hay4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/accepts/-/accepts-1.3.8.tgz}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-types: 2.1.35
+      negotiator: 0.6.3
+    dev: false
+
+  /agent-base/6.0.2:
+    resolution: {integrity: sha1-Sf/1hXfP7j83F2/qtMIuAPhtf3c=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/agent-base/-/agent-base-6.0.2.tgz}
+    engines: {node: '>= 6.0.0'}
+    dependencies:
+      debug: 4.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /ansi-regex/5.0.1:
+    resolution: {integrity: sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ansi-regex/-/ansi-regex-5.0.1.tgz}
+    engines: {node: '>=8'}
+    dev: false
+
+  /anymatch/3.1.3:
+    resolution: {integrity: sha1-eQxYsZuhcgqEIFtXxhjVrYUklz4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/anymatch/-/anymatch-3.1.3.tgz}
+    engines: {node: '>= 8'}
+    dependencies:
+      normalize-path: 3.0.0
+      picomatch: 2.3.1
+    dev: true
+
+  /aproba/2.0.0:
+    resolution: {integrity: sha1-UlILiuW1aSFbNU78DKo/4eRaitw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/aproba/-/aproba-2.0.0.tgz}
+    dev: false
+
+  /are-we-there-yet/2.0.0:
+    resolution: {integrity: sha1-Ny4Oe9J52OlMZTqqH2cgCIS/Phw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/are-we-there-yet/-/are-we-there-yet-2.0.0.tgz}
+    engines: {node: '>=10'}
+    dependencies:
+      delegates: 1.0.0
+      readable-stream: 3.6.0
+    dev: false
+
+  /array-flatten/1.1.1:
+    resolution: {integrity: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/array-flatten/-/array-flatten-1.1.1.tgz}
+    dev: false
+
+  /balanced-match/1.0.2:
+    resolution: {integrity: sha1-6D46fj8wCzTLnYf2FfoMvzV2kO4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/balanced-match/-/balanced-match-1.0.2.tgz}
+
+  /base64-js/1.5.1:
+    resolution: {integrity: sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/base64-js/-/base64-js-1.5.1.tgz}
+    dev: false
+
+  /base64id/2.0.0:
+    resolution: {integrity: sha1-J3Csa8R9MSr5eov5pjQ0LgzSXLY=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/base64id/-/base64id-2.0.0.tgz}
+    engines: {node: ^4.5.0 || >= 5.9}
+    dev: false
+
+  /bcrypt/5.1.0:
+    resolution: {integrity: sha1-u7J2ZdvEAEgKUk2Jkax0NOhSnhc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/bcrypt/-/bcrypt-5.1.0.tgz}
+    engines: {node: '>= 10.0.0'}
+    requiresBuild: true
+    dependencies:
+      '@mapbox/node-pre-gyp': 1.0.10
+      node-addon-api: 5.1.0
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: false
+
+  /binary-extensions/2.2.0:
+    resolution: {integrity: sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/binary-extensions/-/binary-extensions-2.2.0.tgz}
+    engines: {node: '>=8'}
+    dev: true
+
+  /bl/2.2.1:
+    resolution: {integrity: sha1-jBGntzBlXF1WiYzchxIk9A/ZAdU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/bl/-/bl-2.2.1.tgz}
+    dependencies:
+      readable-stream: 2.3.7
+      safe-buffer: 5.2.1
+    dev: false
+
+  /body-parser/1.20.1:
+    resolution: {integrity: sha1-sYEqiRLBlc03Gj7l5m+qIzilxmg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/body-parser/-/body-parser-1.20.1.tgz}
+    engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
+    dependencies:
+      bytes: 3.1.2
+      content-type: 1.0.5
+      debug: 2.6.9
+      depd: 2.0.0
+      destroy: 1.2.0
+      http-errors: 2.0.0
+      iconv-lite: 0.4.24
+      on-finished: 2.4.1
+      qs: 6.11.0
+      raw-body: 2.5.1
+      type-is: 1.6.18
+      unpipe: 1.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /brace-expansion/1.1.11:
+    resolution: {integrity: sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/brace-expansion/-/brace-expansion-1.1.11.tgz}
+    dependencies:
+      balanced-match: 1.0.2
+      concat-map: 0.0.1
+
+  /braces/3.0.2:
+    resolution: {integrity: sha1-NFThpGLujVmeI23zNs2epPiv4Qc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/braces/-/braces-3.0.2.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      fill-range: 7.0.1
+    dev: true
+
+  /bson/1.1.6:
+    resolution: {integrity: sha1-+4Gb6aYM1nfghTruTKcSp4XWYYo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/bson/-/bson-1.1.6.tgz}
+    engines: {node: '>=0.6.19'}
+    dev: false
+
+  /buffer/5.7.1:
+    resolution: {integrity: sha1-umLnwTEzBTWCGXFghRqPZI6Z7tA=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/buffer/-/buffer-5.7.1.tgz}
+    dependencies:
+      base64-js: 1.5.1
+      ieee754: 1.2.1
+    dev: false
+
+  /bytes/3.1.2:
+    resolution: {integrity: sha1-iwvuuYYFrfGxKPpDhkA8AJ4CIaU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/bytes/-/bytes-3.1.2.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /call-bind/1.0.2:
+    resolution: {integrity: sha1-sdTonmiBGcPJqQOtMKuy9qkZvjw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/call-bind/-/call-bind-1.0.2.tgz}
+    dependencies:
+      function-bind: 1.1.1
+      get-intrinsic: 1.2.0
+    dev: false
+
+  /chokidar/3.5.3:
+    resolution: {integrity: sha1-HPN8hwe5Mr0a8a4iwEMuKs0ZA70=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/chokidar/-/chokidar-3.5.3.tgz}
+    engines: {node: '>= 8.10.0'}
+    dependencies:
+      anymatch: 3.1.3
+      braces: 3.0.2
+      glob-parent: 5.1.2
+      is-binary-path: 2.1.0
+      is-glob: 4.0.3
+      normalize-path: 3.0.0
+      readdirp: 3.6.0
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /chownr/2.0.0:
+    resolution: {integrity: sha1-Fb++U9LqtM9w8YqM1o6+Wzyx3s4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/chownr/-/chownr-2.0.0.tgz}
+    engines: {node: '>=10'}
+    dev: false
+
+  /color-support/1.1.3:
+    resolution: {integrity: sha1-k4NDeaHMmgxh+C9S8NBDIiUb1aI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/color-support/-/color-support-1.1.3.tgz}
+    hasBin: true
+    dev: false
+
+  /concat-map/0.0.1:
+    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/concat-map/-/concat-map-0.0.1.tgz}
+
+  /console-control-strings/1.1.0:
+    resolution: {integrity: sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/console-control-strings/-/console-control-strings-1.1.0.tgz}
+    dev: false
+
+  /content-disposition/0.5.4:
+    resolution: {integrity: sha1-i4K076yCUSoCuwsdzsnSxejrW/4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/content-disposition/-/content-disposition-0.5.4.tgz}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      safe-buffer: 5.2.1
+    dev: false
+
+  /content-type/1.0.5:
+    resolution: {integrity: sha1-i3cxYmVtHRCGeEyPI6VM5tc9eRg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/content-type/-/content-type-1.0.5.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /cookie-parser/1.3.5:
+    resolution: {integrity: sha1-nXVVcPtdF4kHcSJ6AjFNm+fPg1Y=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/cookie-parser/-/cookie-parser-1.3.5.tgz}
+    engines: {node: '>= 0.8.0'}
+    dependencies:
+      cookie: 0.1.3
+      cookie-signature: 1.0.6
+    dev: false
+
+  /cookie-parser/1.4.6:
+    resolution: {integrity: sha1-OsOn01p6A7vH42UHOiYHSCQhRZQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/cookie-parser/-/cookie-parser-1.4.6.tgz}
+    engines: {node: '>= 0.8.0'}
+    dependencies:
+      cookie: 0.4.1
+      cookie-signature: 1.0.6
+    dev: false
+
+  /cookie-signature/1.0.6:
+    resolution: {integrity: sha1-4wOogrNCzD7oylE6eZmXNNqzriw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/cookie-signature/-/cookie-signature-1.0.6.tgz}
+    dev: false
+
+  /cookie/0.1.3:
+    resolution: {integrity: sha1-5zSlwUF/zkctWu+Cw4HKu2TRpDU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/cookie/-/cookie-0.1.3.tgz}
+    dev: false
+
+  /cookie/0.4.1:
+    resolution: {integrity: sha1-r9cT/ibr0hupXOth+agRblClN9E=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/cookie/-/cookie-0.4.1.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /cookie/0.4.2:
+    resolution: {integrity: sha1-DkHyTeXs8xeUfIL8eJ4GqISCRDI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/cookie/-/cookie-0.4.2.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /cookie/0.5.0:
+    resolution: {integrity: sha1-0fXXGt7GVYxY84mYfDZqpH6ZT4s=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/cookie/-/cookie-0.5.0.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /core-util-is/1.0.3:
+    resolution: {integrity: sha1-pgQtNjTCsn6TKPg3uWX6yDgI24U=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/core-util-is/-/core-util-is-1.0.3.tgz}
+    dev: false
+
+  /cors/2.8.5:
+    resolution: {integrity: sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/cors/-/cors-2.8.5.tgz}
+    engines: {node: '>= 0.10'}
+    dependencies:
+      object-assign: 4.1.1
+      vary: 1.1.2
+    dev: false
+
+  /crc/3.8.0:
+    resolution: {integrity: sha1-rWAmnCyFb4wpnixMwN5FVpFAVsY=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/crc/-/crc-3.8.0.tgz}
+    dependencies:
+      buffer: 5.7.1
+    dev: false
+
+  /cryptr/6.1.0:
+    resolution: {integrity: sha1-1TeYxJhrq3aq8hzYIhB+JuuK9OU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/cryptr/-/cryptr-6.1.0.tgz}
+    dev: false
+
+  /debug/2.6.9:
+    resolution: {integrity: sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/debug/-/debug-2.6.9.tgz}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.0.0
+    dev: false
+
+  /debug/3.2.7_supports-color@5.5.0:
+    resolution: {integrity: sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/debug/-/debug-3.2.7.tgz}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.3
+      supports-color: 5.5.0
+    dev: true
+
+  /debug/4.3.4:
+    resolution: {integrity: sha1-Exn2V5NX8jONMzfSzdSRS7XcyGU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/debug/-/debug-4.3.4.tgz}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: false
+
+  /delegates/1.0.0:
+    resolution: {integrity: sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/delegates/-/delegates-1.0.0.tgz}
+    dev: false
+
+  /denque/1.5.1:
+    resolution: {integrity: sha1-B/Zw4pyaePj67LJWah4sEZKcXL8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/denque/-/denque-1.5.1.tgz}
+    engines: {node: '>=0.10'}
+    dev: false
+
+  /depd/2.0.0:
+    resolution: {integrity: sha1-tpYWPMdXVg0JzyLMj60Vcbeedt8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/depd/-/depd-2.0.0.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /destroy/1.2.0:
+    resolution: {integrity: sha1-SANzVQmti+VSk0xn32FPlOZvoBU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/destroy/-/destroy-1.2.0.tgz}
+    engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
+    dev: false
+
+  /detect-libc/2.0.1:
+    resolution: {integrity: sha1-4Yl6qI+mrRl4YpN/vARB7zUu4M0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/detect-libc/-/detect-libc-2.0.1.tgz}
+    engines: {node: '>=8'}
+    dev: false
+
+  /ee-first/1.1.1:
+    resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ee-first/-/ee-first-1.1.1.tgz}
+    dev: false
+
+  /emoji-regex/8.0.0:
+    resolution: {integrity: sha1-6Bj9ac5cz8tARZT4QpY79TFkzDc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/emoji-regex/-/emoji-regex-8.0.0.tgz}
+    dev: false
+
+  /encodeurl/1.0.2:
+    resolution: {integrity: sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/encodeurl/-/encodeurl-1.0.2.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /engine.io-parser/5.0.6:
+    resolution: {integrity: sha1-eBEkSvFz4VcpXeybJxjf5Cpk70U=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/engine.io-parser/-/engine.io-parser-5.0.6.tgz}
+    engines: {node: '>=10.0.0'}
+    dev: false
+
+  /engine.io/6.4.0:
+    resolution: {integrity: sha1-3if3nstYMBFxrqeVbz9vT6V4SQo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/engine.io/-/engine.io-6.4.0.tgz}
+    engines: {node: '>=10.0.0'}
+    dependencies:
+      '@types/cookie': 0.4.1
+      '@types/cors': 2.8.13
+      '@types/node': 18.13.0
+      accepts: 1.3.8
+      base64id: 2.0.0
+      cookie: 0.4.2
+      cors: 2.8.5
+      debug: 4.3.4
+      engine.io-parser: 5.0.6
+      ws: 8.11.0
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  /escape-html/1.0.3:
+    resolution: {integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/escape-html/-/escape-html-1.0.3.tgz}
+    dev: false
+
+  /etag/1.8.1:
+    resolution: {integrity: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/etag/-/etag-1.8.1.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /express-session/1.17.3:
+    resolution: {integrity: sha1-FLmXoV7UPllJyx0HNyVnXdJ3fzY=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/express-session/-/express-session-1.17.3.tgz}
+    engines: {node: '>= 0.8.0'}
+    dependencies:
+      cookie: 0.4.2
+      cookie-signature: 1.0.6
+      debug: 2.6.9
+      depd: 2.0.0
+      on-headers: 1.0.2
+      parseurl: 1.3.3
+      safe-buffer: 5.2.1
+      uid-safe: 2.1.5
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /express-socket.io-session/1.3.5:
+    resolution: {integrity: sha1-SPvsd5OIoti7+R3f7E4JwCjIQHw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/express-socket.io-session/-/express-socket.io-session-1.3.5.tgz}
+    dependencies:
+      cookie-parser: 1.3.5
+      crc: 3.8.0
+      debug: 2.6.9
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /express/4.18.2:
+    resolution: {integrity: sha1-P6vggpbpMMeWwZ48UWl5OGup/Vk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/express/-/express-4.18.2.tgz}
+    engines: {node: '>= 0.10.0'}
+    dependencies:
+      accepts: 1.3.8
+      array-flatten: 1.1.1
+      body-parser: 1.20.1
+      content-disposition: 0.5.4
+      content-type: 1.0.5
+      cookie: 0.5.0
+      cookie-signature: 1.0.6
+      debug: 2.6.9
+      depd: 2.0.0
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      etag: 1.8.1
+      finalhandler: 1.2.0
+      fresh: 0.5.2
+      http-errors: 2.0.0
+      merge-descriptors: 1.0.1
+      methods: 1.1.2
+      on-finished: 2.4.1
+      parseurl: 1.3.3
+      path-to-regexp: 0.1.7
+      proxy-addr: 2.0.7
+      qs: 6.11.0
+      range-parser: 1.2.1
+      safe-buffer: 5.2.1
+      send: 0.18.0
+      serve-static: 1.15.0
+      setprototypeof: 1.2.0
+      statuses: 2.0.1
+      type-is: 1.6.18
+      utils-merge: 1.0.1
+      vary: 1.1.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /fill-range/7.0.1:
+    resolution: {integrity: sha1-GRmmp8df44ssfHflGYU12prN2kA=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/fill-range/-/fill-range-7.0.1.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      to-regex-range: 5.0.1
+    dev: true
+
+  /finalhandler/1.2.0:
+    resolution: {integrity: sha1-fSP+VzGyB7RkDk/NAK7B+SB6ezI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/finalhandler/-/finalhandler-1.2.0.tgz}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      debug: 2.6.9
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      on-finished: 2.4.1
+      parseurl: 1.3.3
+      statuses: 2.0.1
+      unpipe: 1.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /forwarded/0.2.0:
+    resolution: {integrity: sha1-ImmTZCiq1MFcfr6XeahL8LKoGBE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/forwarded/-/forwarded-0.2.0.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /fresh/0.5.2:
+    resolution: {integrity: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/fresh/-/fresh-0.5.2.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /fs-minipass/2.1.0:
+    resolution: {integrity: sha1-f1A2/b8SxjwWkZDL5BmchSJx+fs=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/fs-minipass/-/fs-minipass-2.1.0.tgz}
+    engines: {node: '>= 8'}
+    dependencies:
+      minipass: 3.3.6
+    dev: false
+
+  /fs.realpath/1.0.0:
+    resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/fs.realpath/-/fs.realpath-1.0.0.tgz}
+    dev: false
+
+  /fsevents/2.3.2:
+    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/fsevents/-/fsevents-2.3.2.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /function-bind/1.1.1:
+    resolution: {integrity: sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/function-bind/-/function-bind-1.1.1.tgz}
+    dev: false
+
+  /gauge/3.0.2:
+    resolution: {integrity: sha1-A79EQcBEODkIvPoGVq2RgDJZs5U=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/gauge/-/gauge-3.0.2.tgz}
+    engines: {node: '>=10'}
+    dependencies:
+      aproba: 2.0.0
+      color-support: 1.1.3
+      console-control-strings: 1.1.0
+      has-unicode: 2.0.1
+      object-assign: 4.1.1
+      signal-exit: 3.0.7
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
+      wide-align: 1.1.5
+    dev: false
+
+  /get-intrinsic/1.2.0:
+    resolution: {integrity: sha1-etHcBTXzopBLugdXcnY+UFH20F8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/get-intrinsic/-/get-intrinsic-1.2.0.tgz}
+    dependencies:
+      function-bind: 1.1.1
+      has: 1.0.3
+      has-symbols: 1.0.3
+    dev: false
+
+  /glob-parent/5.1.2:
+    resolution: {integrity: sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/glob-parent/-/glob-parent-5.1.2.tgz}
+    engines: {node: '>= 6'}
+    dependencies:
+      is-glob: 4.0.3
+    dev: true
+
+  /glob/7.2.3:
+    resolution: {integrity: sha1-uN8PuAK7+o6JvR2Ti04WV47UTys=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/glob/-/glob-7.2.3.tgz}
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.4
+      minimatch: 3.1.2
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    dev: false
+
+  /has-flag/3.0.0:
+    resolution: {integrity: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/has-flag/-/has-flag-3.0.0.tgz}
+    engines: {node: '>=4'}
+    dev: true
+
+  /has-symbols/1.0.3:
+    resolution: {integrity: sha1-u3ssQ0klHc6HsSX3vfh0qnyLOfg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/has-symbols/-/has-symbols-1.0.3.tgz}
+    engines: {node: '>= 0.4'}
+    dev: false
+
+  /has-unicode/2.0.1:
+    resolution: {integrity: sha1-4Ob+aijPUROIVeCG0Wkedx3iqLk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/has-unicode/-/has-unicode-2.0.1.tgz}
+    dev: false
+
+  /has/1.0.3:
+    resolution: {integrity: sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/has/-/has-1.0.3.tgz}
+    engines: {node: '>= 0.4.0'}
+    dependencies:
+      function-bind: 1.1.1
+    dev: false
+
+  /http-errors/2.0.0:
+    resolution: {integrity: sha1-t3dKFIbvc892Z6ya4IWMASxXudM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/http-errors/-/http-errors-2.0.0.tgz}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      depd: 2.0.0
+      inherits: 2.0.4
+      setprototypeof: 1.2.0
+      statuses: 2.0.1
+      toidentifier: 1.0.1
+    dev: false
+
+  /https-proxy-agent/5.0.1:
+    resolution: {integrity: sha1-xZ7yJKBP6LdU89sAY6Jeow0ABdY=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz}
+    engines: {node: '>= 6'}
+    dependencies:
+      agent-base: 6.0.2
+      debug: 4.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /iconv-lite/0.4.24:
+    resolution: {integrity: sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/iconv-lite/-/iconv-lite-0.4.24.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: false
+
+  /ieee754/1.2.1:
+    resolution: {integrity: sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ieee754/-/ieee754-1.2.1.tgz}
+    dev: false
+
+  /ignore-by-default/1.0.1:
+    resolution: {integrity: sha1-SMptcvbGo68Aqa1K5odr44ieKwk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ignore-by-default/-/ignore-by-default-1.0.1.tgz}
+    dev: true
+
+  /inflight/1.0.6:
+    resolution: {integrity: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/inflight/-/inflight-1.0.6.tgz}
+    dependencies:
+      once: 1.4.0
+      wrappy: 1.0.2
+    dev: false
+
+  /inherits/2.0.4:
+    resolution: {integrity: sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/inherits/-/inherits-2.0.4.tgz}
+    dev: false
+
+  /ipaddr.js/1.9.1:
+    resolution: {integrity: sha1-v/OFQ+64mEglB5/zoqjmy9RngbM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ipaddr.js/-/ipaddr.js-1.9.1.tgz}
+    engines: {node: '>= 0.10'}
+    dev: false
+
+  /is-binary-path/2.1.0:
+    resolution: {integrity: sha1-6h9/O4DwZCNug0cPhsCcJU+0Wwk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/is-binary-path/-/is-binary-path-2.1.0.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      binary-extensions: 2.2.0
+    dev: true
+
+  /is-extglob/2.1.1:
+    resolution: {integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/is-extglob/-/is-extglob-2.1.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  /is-fullwidth-code-point/3.0.0:
+    resolution: {integrity: sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz}
+    engines: {node: '>=8'}
+    dev: false
+
+  /is-glob/4.0.3:
+    resolution: {integrity: sha1-ZPYeQsu7LuwgcanawLKLoeZdUIQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/is-glob/-/is-glob-4.0.3.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      is-extglob: 2.1.1
+    dev: true
+
+  /is-number/7.0.0:
+    resolution: {integrity: sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/is-number/-/is-number-7.0.0.tgz}
+    engines: {node: '>=0.12.0'}
+    dev: true
+
+  /isarray/1.0.0:
+    resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/isarray/-/isarray-1.0.0.tgz}
+    dev: false
+
+  /lru-cache/6.0.0:
+    resolution: {integrity: sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/lru-cache/-/lru-cache-6.0.0.tgz}
+    engines: {node: '>=10'}
+    dependencies:
+      yallist: 4.0.0
+    dev: false
+
+  /make-dir/3.1.0:
+    resolution: {integrity: sha1-QV6WcEazp/HRhSd9hKpYIDcmoT8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/make-dir/-/make-dir-3.1.0.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      semver: 6.3.0
+    dev: false
+
+  /media-typer/0.3.0:
+    resolution: {integrity: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/media-typer/-/media-typer-0.3.0.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /memory-pager/1.5.0:
+    resolution: {integrity: sha1-2HUWVdItOEaCdByXLyw9bfo+ZrU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/memory-pager/-/memory-pager-1.5.0.tgz}
+    dev: false
+    optional: true
+
+  /merge-descriptors/1.0.1:
+    resolution: {integrity: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/merge-descriptors/-/merge-descriptors-1.0.1.tgz}
+    dev: false
+
+  /methods/1.1.2:
+    resolution: {integrity: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/methods/-/methods-1.1.2.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /mime-db/1.52.0:
+    resolution: {integrity: sha1-u6vNwChZ9JhzAchW4zh85exDv3A=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/mime-db/-/mime-db-1.52.0.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /mime-types/2.1.35:
+    resolution: {integrity: sha1-OBqHG2KnNEUGYK497uRIE/cNlZo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/mime-types/-/mime-types-2.1.35.tgz}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-db: 1.52.0
+    dev: false
+
+  /mime/1.6.0:
+    resolution: {integrity: sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/mime/-/mime-1.6.0.tgz}
+    engines: {node: '>=4'}
+    hasBin: true
+    dev: false
+
+  /minimatch/3.1.2:
+    resolution: {integrity: sha1-Gc0ZS/0+Qo8EmnCBfAONiatL41s=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/minimatch/-/minimatch-3.1.2.tgz}
+    dependencies:
+      brace-expansion: 1.1.11
+
+  /minipass/3.3.6:
+    resolution: {integrity: sha1-e7o4TbOhUg0YycDlJRw0ROld2Uo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/minipass/-/minipass-3.3.6.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      yallist: 4.0.0
+    dev: false
+
+  /minipass/4.0.3:
+    resolution: {integrity: sha1-AL+68eFuNegE9Koxp8H2uNnw7nI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/minipass/-/minipass-4.0.3.tgz}
+    engines: {node: '>=8'}
+    dev: false
+
+  /minizlib/2.1.2:
+    resolution: {integrity: sha1-6Q00Zrogm5MkUVCKEc49NjIUWTE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/minizlib/-/minizlib-2.1.2.tgz}
+    engines: {node: '>= 8'}
+    dependencies:
+      minipass: 3.3.6
+      yallist: 4.0.0
+    dev: false
+
+  /mkdirp/1.0.4:
+    resolution: {integrity: sha1-PrXtYmInVteaXw4qIh3+utdcL34=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/mkdirp/-/mkdirp-1.0.4.tgz}
+    engines: {node: '>=10'}
+    hasBin: true
+    dev: false
+
+  /mongodb/3.7.3:
+    resolution: {integrity: sha1-t5Sc/QrcTMfTLT8gNCFNRHXxdaU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/mongodb/-/mongodb-3.7.3.tgz}
+    engines: {node: '>=4'}
+    peerDependencies:
+      aws4: '*'
+      bson-ext: '*'
+      kerberos: '*'
+      mongodb-client-encryption: '*'
+      mongodb-extjson: '*'
+      snappy: '*'
+    peerDependenciesMeta:
+      aws4:
+        optional: true
+      bson-ext:
+        optional: true
+      kerberos:
+        optional: true
+      mongodb-client-encryption:
+        optional: true
+      mongodb-extjson:
+        optional: true
+      snappy:
+        optional: true
+    dependencies:
+      bl: 2.2.1
+      bson: 1.1.6
+      denque: 1.5.1
+      optional-require: 1.1.8
+      safe-buffer: 5.2.1
+    optionalDependencies:
+      saslprep: 1.0.3
+    dev: false
+
+  /ms/2.0.0:
+    resolution: {integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ms/-/ms-2.0.0.tgz}
+    dev: false
+
+  /ms/2.1.2:
+    resolution: {integrity: sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ms/-/ms-2.1.2.tgz}
+    dev: false
+
+  /ms/2.1.3:
+    resolution: {integrity: sha1-V0yBOM4dK1hh8LRFedut1gxmFbI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ms/-/ms-2.1.3.tgz}
+
+  /negotiator/0.6.3:
+    resolution: {integrity: sha1-WOMjpy/twNb5zU0x/kn1FHlZDM0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/negotiator/-/negotiator-0.6.3.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /node-addon-api/5.1.0:
+    resolution: {integrity: sha1-SdocoFXhCaI9U36d5DwJzKIet2I=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/node-addon-api/-/node-addon-api-5.1.0.tgz}
+    dev: false
+
+  /node-fetch/2.6.9:
+    resolution: {integrity: sha1-fH90S1zG61/UBODHqf7GMKVWV+Y=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/node-fetch/-/node-fetch-2.6.9.tgz}
+    engines: {node: 4.x || >=6.0.0}
+    peerDependencies:
+      encoding: ^0.1.0
+    peerDependenciesMeta:
+      encoding:
+        optional: true
+    dependencies:
+      whatwg-url: 5.0.0
+    dev: false
+
+  /nodemon/2.0.20:
+    resolution: {integrity: sha1-41N952ikkujXTaXFgTywx0hvxwE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/nodemon/-/nodemon-2.0.20.tgz}
+    engines: {node: '>=8.10.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      debug: 3.2.7_supports-color@5.5.0
+      ignore-by-default: 1.0.1
+      minimatch: 3.1.2
+      pstree.remy: 1.1.8
+      semver: 5.7.1
+      simple-update-notifier: 1.1.0
+      supports-color: 5.5.0
+      touch: 3.1.0
+      undefsafe: 2.0.5
+    dev: true
+
+  /nopt/1.0.10:
+    resolution: {integrity: sha1-bd0hvSoxQXuScn3Vhfim83YI6+4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/nopt/-/nopt-1.0.10.tgz}
+    hasBin: true
+    dependencies:
+      abbrev: 1.1.1
+    dev: true
+
+  /nopt/5.0.0:
+    resolution: {integrity: sha1-UwlCu1ilEvzK/lP+IQ8TolNV3Ig=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/nopt/-/nopt-5.0.0.tgz}
+    engines: {node: '>=6'}
+    hasBin: true
+    dependencies:
+      abbrev: 1.1.1
+    dev: false
+
+  /normalize-path/3.0.0:
+    resolution: {integrity: sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/normalize-path/-/normalize-path-3.0.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  /npmlog/5.0.1:
+    resolution: {integrity: sha1-8GZ46A4pQZrWerlk4PpplZweuLA=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/npmlog/-/npmlog-5.0.1.tgz}
+    dependencies:
+      are-we-there-yet: 2.0.0
+      console-control-strings: 1.1.0
+      gauge: 3.0.2
+      set-blocking: 2.0.0
+    dev: false
+
+  /object-assign/4.1.1:
+    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/object-assign/-/object-assign-4.1.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /object-inspect/1.12.3:
+    resolution: {integrity: sha1-umLf/WfuJWyMCG365p4BbNHxmLk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/object-inspect/-/object-inspect-1.12.3.tgz}
+    dev: false
+
+  /on-finished/2.4.1:
+    resolution: {integrity: sha1-WMjEQRblSEWtV/FKsQsDUzGErD8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/on-finished/-/on-finished-2.4.1.tgz}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      ee-first: 1.1.1
+    dev: false
+
+  /on-headers/1.0.2:
+    resolution: {integrity: sha1-dysK5qqlJcOZ5Imt+tkMQD6zwo8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/on-headers/-/on-headers-1.0.2.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /once/1.4.0:
+    resolution: {integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/once/-/once-1.4.0.tgz}
+    dependencies:
+      wrappy: 1.0.2
+    dev: false
+
+  /optional-require/1.1.8:
+    resolution: {integrity: sha1-FjZNdiYbddlkxIKyQGy4JNjsRLc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/optional-require/-/optional-require-1.1.8.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      require-at: 1.0.6
+    dev: false
+
+  /parseurl/1.3.3:
+    resolution: {integrity: sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/parseurl/-/parseurl-1.3.3.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /path-is-absolute/1.0.1:
+    resolution: {integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/path-is-absolute/-/path-is-absolute-1.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /path-to-regexp/0.1.7:
+    resolution: {integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/path-to-regexp/-/path-to-regexp-0.1.7.tgz}
+    dev: false
+
+  /picomatch/2.3.1:
+    resolution: {integrity: sha1-O6ODNzNkbZ0+SZWUbBNlpn+wekI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/picomatch/-/picomatch-2.3.1.tgz}
+    engines: {node: '>=8.6'}
+    dev: true
+
+  /process-nextick-args/2.0.1:
+    resolution: {integrity: sha1-eCDZsWEgzFXKmud5JoCufbptf+I=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/process-nextick-args/-/process-nextick-args-2.0.1.tgz}
+    dev: false
+
+  /proxy-addr/2.0.7:
+    resolution: {integrity: sha1-8Z/mnOqzEe65S0LnDowgcPm6ECU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/proxy-addr/-/proxy-addr-2.0.7.tgz}
+    engines: {node: '>= 0.10'}
+    dependencies:
+      forwarded: 0.2.0
+      ipaddr.js: 1.9.1
+    dev: false
+
+  /pstree.remy/1.1.8:
+    resolution: {integrity: sha1-wkIiT0pnwh9oaDm720rCgrg3PTo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/pstree.remy/-/pstree.remy-1.1.8.tgz}
+    dev: true
+
+  /qs/6.11.0:
+    resolution: {integrity: sha1-/Q2WNEb3pl4TZ+AavYVClFPww3o=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/qs/-/qs-6.11.0.tgz}
+    engines: {node: '>=0.6'}
+    dependencies:
+      side-channel: 1.0.4
+    dev: false
+
+  /random-bytes/1.0.0:
+    resolution: {integrity: sha1-T2ih3Arli9P7lYSMMDJNt11kNgs=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/random-bytes/-/random-bytes-1.0.0.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /range-parser/1.2.1:
+    resolution: {integrity: sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/range-parser/-/range-parser-1.2.1.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /raw-body/2.5.1:
+    resolution: {integrity: sha1-/hsWKLGBtwAhXl/UI4n5i3E5KFc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/raw-body/-/raw-body-2.5.1.tgz}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      bytes: 3.1.2
+      http-errors: 2.0.0
+      iconv-lite: 0.4.24
+      unpipe: 1.0.0
+    dev: false
+
+  /readable-stream/2.3.7:
+    resolution: {integrity: sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/readable-stream/-/readable-stream-2.3.7.tgz}
+    dependencies:
+      core-util-is: 1.0.3
+      inherits: 2.0.4
+      isarray: 1.0.0
+      process-nextick-args: 2.0.1
+      safe-buffer: 5.1.2
+      string_decoder: 1.1.1
+      util-deprecate: 1.0.2
+    dev: false
+
+  /readable-stream/3.6.0:
+    resolution: {integrity: sha1-M3u9o63AcGvT4CRCaihtS0sskZg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/readable-stream/-/readable-stream-3.6.0.tgz}
+    engines: {node: '>= 6'}
+    dependencies:
+      inherits: 2.0.4
+      string_decoder: 1.3.0
+      util-deprecate: 1.0.2
+    dev: false
+
+  /readdirp/3.6.0:
+    resolution: {integrity: sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/readdirp/-/readdirp-3.6.0.tgz}
+    engines: {node: '>=8.10.0'}
+    dependencies:
+      picomatch: 2.3.1
+    dev: true
+
+  /require-at/1.0.6:
+    resolution: {integrity: sha1-nrfjxeAHJ/WkdEBwp/Vg1N5Pbmo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/require-at/-/require-at-1.0.6.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /rimraf/3.0.2:
+    resolution: {integrity: sha1-8aVAK6YiCtUswSgrrBrjqkn9Bho=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/rimraf/-/rimraf-3.0.2.tgz}
+    hasBin: true
+    dependencies:
+      glob: 7.2.3
+    dev: false
+
+  /safe-buffer/5.1.2:
+    resolution: {integrity: sha1-mR7GnSluAxN0fVm9/St0XDX4go0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/safe-buffer/-/safe-buffer-5.1.2.tgz}
+    dev: false
+
+  /safe-buffer/5.2.1:
+    resolution: {integrity: sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/safe-buffer/-/safe-buffer-5.2.1.tgz}
+    dev: false
+
+  /safer-buffer/2.1.2:
+    resolution: {integrity: sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/safer-buffer/-/safer-buffer-2.1.2.tgz}
+    dev: false
+
+  /saslprep/1.0.3:
+    resolution: {integrity: sha1-TAL5RrVs9UKX40e6EJPnrKxM8iY=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/saslprep/-/saslprep-1.0.3.tgz}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      sparse-bitfield: 3.0.3
+    dev: false
+    optional: true
+
+  /semver/5.7.1:
+    resolution: {integrity: sha1-qVT5Ma66UI0we78Gnv8MAclhFvc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/semver/-/semver-5.7.1.tgz}
+    hasBin: true
+    dev: true
+
+  /semver/6.3.0:
+    resolution: {integrity: sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/semver/-/semver-6.3.0.tgz}
+    hasBin: true
+    dev: false
+
+  /semver/7.0.0:
+    resolution: {integrity: sha1-XzyjV2HkfgWyBsba/yz4FPAxa44=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/semver/-/semver-7.0.0.tgz}
+    hasBin: true
+    dev: true
+
+  /semver/7.3.8:
+    resolution: {integrity: sha1-B6eP6vs/ezI0fXJeM95+Ki32d5g=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/semver/-/semver-7.3.8.tgz}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: false
+
+  /send/0.18.0:
+    resolution: {integrity: sha1-ZwFnzGVLBfWqSnZ/kRO7NxvHBr4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/send/-/send-0.18.0.tgz}
+    engines: {node: '>= 0.8.0'}
+    dependencies:
+      debug: 2.6.9
+      depd: 2.0.0
+      destroy: 1.2.0
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      etag: 1.8.1
+      fresh: 0.5.2
+      http-errors: 2.0.0
+      mime: 1.6.0
+      ms: 2.1.3
+      on-finished: 2.4.1
+      range-parser: 1.2.1
+      statuses: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /serve-static/1.15.0:
+    resolution: {integrity: sha1-+q7wjP/goaYvYMrQxOUTz/CslUA=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/serve-static/-/serve-static-1.15.0.tgz}
+    engines: {node: '>= 0.8.0'}
+    dependencies:
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      parseurl: 1.3.3
+      send: 0.18.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /set-blocking/2.0.0:
+    resolution: {integrity: sha1-BF+XgtARrppoA93TgrJDkrPYkPc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/set-blocking/-/set-blocking-2.0.0.tgz}
+    dev: false
+
+  /setprototypeof/1.2.0:
+    resolution: {integrity: sha1-ZsmiSnP5/CjL5msJ/tPTPcrxtCQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/setprototypeof/-/setprototypeof-1.2.0.tgz}
+    dev: false
+
+  /side-channel/1.0.4:
+    resolution: {integrity: sha1-785cj9wQTudRslxY1CkAEfpeos8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/side-channel/-/side-channel-1.0.4.tgz}
+    dependencies:
+      call-bind: 1.0.2
+      get-intrinsic: 1.2.0
+      object-inspect: 1.12.3
+    dev: false
+
+  /signal-exit/3.0.7:
+    resolution: {integrity: sha1-qaF2f4r4QVURTqq9c/mSc8j1mtk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/signal-exit/-/signal-exit-3.0.7.tgz}
+    dev: false
+
+  /simple-update-notifier/1.1.0:
+    resolution: {integrity: sha1-Z2lMEh3jVK9ZKzR826eYRj7UnII=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/simple-update-notifier/-/simple-update-notifier-1.1.0.tgz}
+    engines: {node: '>=8.10.0'}
+    dependencies:
+      semver: 7.0.0
+    dev: true
+
+  /socket.io-adapter/2.5.2:
+    resolution: {integrity: sha1-XelHfJGC/cFxzYyDZLmoiU7HXRI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/socket.io-adapter/-/socket.io-adapter-2.5.2.tgz}
+    dependencies:
+      ws: 8.11.0
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+    dev: false
+
+  /socket.io-parser/4.2.2:
+    resolution: {integrity: sha1-HdOEAZ4lt6PTdId/SSqzTyrQ0gY=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/socket.io-parser/-/socket.io-parser-4.2.2.tgz}
+    engines: {node: '>=10.0.0'}
+    dependencies:
+      '@socket.io/component-emitter': 3.1.0
+      debug: 4.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /socket.io/4.6.0:
+    resolution: {integrity: sha1-guv9dlJXKHLhDbsZUz/Hy5MNC8M=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/socket.io/-/socket.io-4.6.0.tgz}
+    engines: {node: '>=10.0.0'}
+    dependencies:
+      accepts: 1.3.8
+      base64id: 2.0.0
+      debug: 4.3.4
+      engine.io: 6.4.0
+      socket.io-adapter: 2.5.2
+      socket.io-parser: 4.2.2
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  /sparse-bitfield/3.0.3:
+    resolution: {integrity: sha1-/0rm5oZWBWuks+eSqzM004JzyhE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz}
+    dependencies:
+      memory-pager: 1.5.0
+    dev: false
+    optional: true
+
+  /statuses/2.0.1:
+    resolution: {integrity: sha1-VcsADM8dSHKL0jxoWgY5mM8aG2M=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/statuses/-/statuses-2.0.1.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /string-width/4.2.3:
+    resolution: {integrity: sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/string-width/-/string-width-4.2.3.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      emoji-regex: 8.0.0
+      is-fullwidth-code-point: 3.0.0
+      strip-ansi: 6.0.1
+    dev: false
+
+  /string_decoder/1.1.1:
+    resolution: {integrity: sha1-nPFhG6YmhdcDCunkujQUnDrwP8g=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/string_decoder/-/string_decoder-1.1.1.tgz}
+    dependencies:
+      safe-buffer: 5.1.2
+    dev: false
+
+  /string_decoder/1.3.0:
+    resolution: {integrity: sha1-QvEUWUpGzxqOMLCoT1bHjD7awh4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/string_decoder/-/string_decoder-1.3.0.tgz}
+    dependencies:
+      safe-buffer: 5.2.1
+    dev: false
+
+  /strip-ansi/6.0.1:
+    resolution: {integrity: sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/strip-ansi/-/strip-ansi-6.0.1.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      ansi-regex: 5.0.1
+    dev: false
+
+  /supports-color/5.5.0:
+    resolution: {integrity: sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/supports-color/-/supports-color-5.5.0.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      has-flag: 3.0.0
+    dev: true
+
+  /tar/6.1.13:
+    resolution: {integrity: sha1-RuIlKQAPYSGAYBpv4GgOfaUIhHs=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/tar/-/tar-6.1.13.tgz}
+    engines: {node: '>=10'}
+    dependencies:
+      chownr: 2.0.0
+      fs-minipass: 2.1.0
+      minipass: 4.0.3
+      minizlib: 2.1.2
+      mkdirp: 1.0.4
+      yallist: 4.0.0
+    dev: false
+
+  /to-regex-range/5.0.1:
+    resolution: {integrity: sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/to-regex-range/-/to-regex-range-5.0.1.tgz}
+    engines: {node: '>=8.0'}
+    dependencies:
+      is-number: 7.0.0
+    dev: true
+
+  /toidentifier/1.0.1:
+    resolution: {integrity: sha1-O+NDIaiKgg7RvYDfqjPkefu43TU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/toidentifier/-/toidentifier-1.0.1.tgz}
+    engines: {node: '>=0.6'}
+    dev: false
+
+  /touch/3.1.0:
+    resolution: {integrity: sha1-/jZfX3XsntTlaCXgu3bSSrdK+Ds=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/touch/-/touch-3.1.0.tgz}
+    hasBin: true
+    dependencies:
+      nopt: 1.0.10
+    dev: true
+
+  /tr46/0.0.3:
+    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/tr46/-/tr46-0.0.3.tgz}
+    dev: false
+
+  /type-is/1.6.18:
+    resolution: {integrity: sha1-TlUs0F3wlGfcvE73Od6J8s83wTE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/type-is/-/type-is-1.6.18.tgz}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      media-typer: 0.3.0
+      mime-types: 2.1.35
+    dev: false
+
+  /uid-safe/2.1.5:
+    resolution: {integrity: sha1-Kz1cckDo/C5Y+Komnl7knAhXvTo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/uid-safe/-/uid-safe-2.1.5.tgz}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      random-bytes: 1.0.0
+    dev: false
+
+  /undefsafe/2.0.5:
+    resolution: {integrity: sha1-OHM7kye9zSJtuIn7cjpu/RYubiw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/undefsafe/-/undefsafe-2.0.5.tgz}
+    dev: true
+
+  /unpipe/1.0.0:
+    resolution: {integrity: sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/unpipe/-/unpipe-1.0.0.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /util-deprecate/1.0.2:
+    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/util-deprecate/-/util-deprecate-1.0.2.tgz}
+    dev: false
+
+  /utils-merge/1.0.1:
+    resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/utils-merge/-/utils-merge-1.0.1.tgz}
+    engines: {node: '>= 0.4.0'}
+    dev: false
+
+  /vary/1.1.2:
+    resolution: {integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/vary/-/vary-1.1.2.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /webidl-conversions/3.0.1:
+    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/webidl-conversions/-/webidl-conversions-3.0.1.tgz}
+    dev: false
+
+  /whatwg-url/5.0.0:
+    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/whatwg-url/-/whatwg-url-5.0.0.tgz}
+    dependencies:
+      tr46: 0.0.3
+      webidl-conversions: 3.0.1
+    dev: false
+
+  /wide-align/1.1.5:
+    resolution: {integrity: sha1-3x1MIGhUNp7PPJpImPGyP72dFdM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/wide-align/-/wide-align-1.1.5.tgz}
+    dependencies:
+      string-width: 4.2.3
+    dev: false
+
+  /wrappy/1.0.2:
+    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/wrappy/-/wrappy-1.0.2.tgz}
+    dev: false
+
+  /ws/8.11.0:
+    resolution: {integrity: sha1-ag02uO39n5bYslaD2y+Nfebo4UM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ws/-/ws-8.11.0.tgz}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: false
+
+  /yallist/4.0.0:
+    resolution: {integrity: sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/yallist/-/yallist-4.0.0.tgz}
+    dev: false

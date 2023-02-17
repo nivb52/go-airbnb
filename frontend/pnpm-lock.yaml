@@ -1,0 +1,1012 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@vitejs/plugin-vue': ^3.0.0
+  axios: ^0.27.2
+  chart.js: ^3.9.1
+  element-plus: ^2.2.25
+  sass: ^1.53.0
+  socket.io-client: ^4.5.1
+  vite: ^3.2.4
+  vue: ^3.2.37
+  vue-chart-3: ^3.1.8
+  vue-router: ^4.1.2
+  vue3-carousel: ^0.2.8
+  vue3-google-map: ^0.15.0
+  vuex: ^4.0.2
+
+dependencies:
+  axios: 0.27.2
+  chart.js: 3.9.1
+  element-plus: 2.2.30_vue@3.2.47
+  sass: 1.58.2
+  socket.io-client: 4.6.0
+  vue: 3.2.47
+  vue-chart-3: 3.1.8_chart.js@3.9.1+vue@3.2.47
+  vue-router: 4.1.6_vue@3.2.47
+  vue3-carousel: 0.2.9_vue@3.2.47
+  vue3-google-map: 0.15.0_vue@3.2.47
+  vuex: 4.1.0_vue@3.2.47
+
+devDependencies:
+  '@vitejs/plugin-vue': 3.2.0_vite@3.2.5+vue@3.2.47
+  vite: 3.2.5_sass@1.58.2
+
+packages:
+
+  /@babel/helper-string-parser/7.19.4:
+    resolution: {integrity: sha1-ONOstlS0cBqbd/sGFalvd1w6nmM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@babel/helper-string-parser/-/helper-string-parser-7.19.4.tgz}
+    engines: {node: '>=6.9.0'}
+    dev: false
+
+  /@babel/helper-validator-identifier/7.19.1:
+    resolution: {integrity: sha1-fuqDTPMpAf/cGn7lVeL5wn4knKI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@babel/helper-validator-identifier/-/helper-validator-identifier-7.19.1.tgz}
+    engines: {node: '>=6.9.0'}
+    dev: false
+
+  /@babel/parser/7.20.15:
+    resolution: {integrity: sha1-7snzbY6vCUi7iMh6RnhLXun9DIk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@babel/parser/-/parser-7.20.15.tgz}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+    dependencies:
+      '@babel/types': 7.20.7
+    dev: false
+
+  /@babel/types/7.20.7:
+    resolution: {integrity: sha1-VOx14lIxhCP8B/tkTcalimTAm38=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@babel/types/-/types-7.20.7.tgz}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-string-parser': 7.19.4
+      '@babel/helper-validator-identifier': 7.19.1
+      to-fast-properties: 2.0.0
+    dev: false
+
+  /@ctrl/tinycolor/3.6.0:
+    resolution: {integrity: sha1-U/pf6cNPruiUaeSPkdUaN2YQi8g=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@ctrl/tinycolor/-/tinycolor-3.6.0.tgz}
+    engines: {node: '>=10'}
+    dev: false
+
+  /@element-plus/icons-vue/2.0.10_vue@3.2.47:
+    resolution: {integrity: sha1-YICNYTw9va0CVXcCK+ipcnOa3iE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@element-plus/icons-vue/-/icons-vue-2.0.10.tgz}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: 3.2.47
+    dev: false
+
+  /@esbuild/android-arm/0.15.18:
+    resolution: {integrity: sha1-Jm1AuP3Ph5Yt+K8Ft2IZvHhrT4A=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@esbuild/android-arm/-/android-arm-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-loong64/0.15.18:
+    resolution: {integrity: sha1-Eot27Lm+SLYM9c/BxjpPAGkaMjk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@esbuild/linux-loong64/-/linux-loong64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@floating-ui/core/1.2.1:
+    resolution: {integrity: sha1-B0GCodJ3+UVpxQprRW5iWF1GPI4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@floating-ui/core/-/core-1.2.1.tgz}
+    dev: false
+
+  /@floating-ui/dom/1.2.1:
+    resolution: {integrity: sha1-j5OQbho7n2Bs54r7BY6HQ0Tcvgc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@floating-ui/dom/-/dom-1.2.1.tgz}
+    dependencies:
+      '@floating-ui/core': 1.2.1
+    dev: false
+
+  /@googlemaps/js-api-loader/1.15.1:
+    resolution: {integrity: sha1-fV8dVaTsXJmx2PBwjzpGuDpxOEw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@googlemaps/js-api-loader/-/js-api-loader-1.15.1.tgz}
+    dependencies:
+      fast-deep-equal: 3.1.3
+    dev: false
+
+  /@googlemaps/markerclusterer/2.0.15:
+    resolution: {integrity: sha1-cgUqI6BheJxgVaE3E7iFI1nMA6k=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@googlemaps/markerclusterer/-/markerclusterer-2.0.15.tgz}
+    dependencies:
+      fast-deep-equal: 3.1.3
+      supercluster: 7.1.5
+    dev: false
+
+  /@socket.io/component-emitter/3.1.0:
+    resolution: {integrity: sha1-lhFvKpEuDAKBc0WzwQdRBpkg1VM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz}
+    dev: false
+
+  /@sxzz/popperjs-es/2.11.7:
+    resolution: {integrity: sha1-p/aeNmXT2psRX55xZx2uG5fhNnE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@sxzz/popperjs-es/-/popperjs-es-2.11.7.tgz}
+    dev: false
+
+  /@types/lodash-es/4.17.6:
+    resolution: {integrity: sha1-wu1MgyD/pvEbQ+uJ6eruxllmoKA=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@types/lodash-es/-/lodash-es-4.17.6.tgz}
+    dependencies:
+      '@types/lodash': 4.14.191
+    dev: false
+
+  /@types/lodash/4.14.191:
+    resolution: {integrity: sha1-CVEef3y6J1rNi0Gd2sjammp54vo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@types/lodash/-/lodash-4.14.191.tgz}
+    dev: false
+
+  /@types/web-bluetooth/0.0.16:
+    resolution: {integrity: sha1-HRKHOo5JVnNx8qdf4+f37cpmYtg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz}
+    dev: false
+
+  /@vitejs/plugin-vue/3.2.0_vite@3.2.5+vue@3.2.47:
+    resolution: {integrity: sha1-oUhAid2F1lKPQ1dD+EzdDSFbu1Q=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vitejs/plugin-vue/-/plugin-vue-3.2.0.tgz}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    peerDependencies:
+      vite: ^3.0.0
+      vue: ^3.2.25
+    dependencies:
+      vite: 3.2.5_sass@1.58.2
+      vue: 3.2.47
+    dev: true
+
+  /@vue/compiler-core/3.2.47:
+    resolution: {integrity: sha1-PgfGhNdIl6yapZIsUgdB8wKSZ/g=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/compiler-core/-/compiler-core-3.2.47.tgz}
+    dependencies:
+      '@babel/parser': 7.20.15
+      '@vue/shared': 3.2.47
+      estree-walker: 2.0.2
+      source-map: 0.6.1
+    dev: false
+
+  /@vue/compiler-dom/3.2.47:
+    resolution: {integrity: sha1-oLBsr373BWk55WPcqpy94weU8wU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/compiler-dom/-/compiler-dom-3.2.47.tgz}
+    dependencies:
+      '@vue/compiler-core': 3.2.47
+      '@vue/shared': 3.2.47
+    dev: false
+
+  /@vue/compiler-sfc/3.2.47:
+    resolution: {integrity: sha1-G9w29s3BZD9y4sOX6xo5j1AErT0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/compiler-sfc/-/compiler-sfc-3.2.47.tgz}
+    dependencies:
+      '@babel/parser': 7.20.15
+      '@vue/compiler-core': 3.2.47
+      '@vue/compiler-dom': 3.2.47
+      '@vue/compiler-ssr': 3.2.47
+      '@vue/reactivity-transform': 3.2.47
+      '@vue/shared': 3.2.47
+      estree-walker: 2.0.2
+      magic-string: 0.25.9
+      postcss: 8.4.21
+      source-map: 0.6.1
+    dev: false
+
+  /@vue/compiler-ssr/3.2.47:
+    resolution: {integrity: sha1-NYcsAaJzqsTWBwq52NqRirEwV+4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/compiler-ssr/-/compiler-ssr-3.2.47.tgz}
+    dependencies:
+      '@vue/compiler-dom': 3.2.47
+      '@vue/shared': 3.2.47
+    dev: false
+
+  /@vue/devtools-api/6.5.0:
+    resolution: {integrity: sha1-mLmUJe3ucLTJkmkmKPoeosHlfQc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/devtools-api/-/devtools-api-6.5.0.tgz}
+    dev: false
+
+  /@vue/reactivity-transform/3.2.47:
+    resolution: {integrity: sha1-5F300GNw+KvykIGhav0lz/um2E4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/reactivity-transform/-/reactivity-transform-3.2.47.tgz}
+    dependencies:
+      '@babel/parser': 7.20.15
+      '@vue/compiler-core': 3.2.47
+      '@vue/shared': 3.2.47
+      estree-walker: 2.0.2
+      magic-string: 0.25.9
+    dev: false
+
+  /@vue/reactivity/3.2.47:
+    resolution: {integrity: sha1-HWOZB06t/D7TXHJ+L9cH1ogRQLY=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/reactivity/-/reactivity-3.2.47.tgz}
+    dependencies:
+      '@vue/shared': 3.2.47
+    dev: false
+
+  /@vue/runtime-core/3.2.47:
+    resolution: {integrity: sha1-QG663j1VUcAPxkCbvB7rEPMuEh0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/runtime-core/-/runtime-core-3.2.47.tgz}
+    dependencies:
+      '@vue/reactivity': 3.2.47
+      '@vue/shared': 3.2.47
+    dev: false
+
+  /@vue/runtime-dom/3.2.47:
+    resolution: {integrity: sha1-k+dg7q6rhN7ft8Pq8+1Y13Ypk4I=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/runtime-dom/-/runtime-dom-3.2.47.tgz}
+    dependencies:
+      '@vue/runtime-core': 3.2.47
+      '@vue/shared': 3.2.47
+      csstype: 2.6.21
+    dev: false
+
+  /@vue/server-renderer/3.2.47_vue@3.2.47:
+    resolution: {integrity: sha1-iqHRhx/E61p4Uap/dB+PcA5t48A=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/server-renderer/-/server-renderer-3.2.47.tgz}
+    peerDependencies:
+      vue: 3.2.47
+    dependencies:
+      '@vue/compiler-ssr': 3.2.47
+      '@vue/shared': 3.2.47
+      vue: 3.2.47
+    dev: false
+
+  /@vue/shared/3.2.47:
+    resolution: {integrity: sha1-5ZfvdQhsbolv9UeKa/wKeqS70Uw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vue/shared/-/shared-3.2.47.tgz}
+    dev: false
+
+  /@vueuse/core/9.12.0_vue@3.2.47:
+    resolution: {integrity: sha1-5bIPkB4IHHrl/g5fOvIXkpA07v4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vueuse/core/-/core-9.12.0.tgz}
+    dependencies:
+      '@types/web-bluetooth': 0.0.16
+      '@vueuse/metadata': 9.12.0
+      '@vueuse/shared': 9.12.0_vue@3.2.47
+      vue-demi: 0.13.11_vue@3.2.47
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
+  /@vueuse/metadata/9.12.0:
+    resolution: {integrity: sha1-GaD+/LpqZqI4KvEKemfrrW7sHyc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vueuse/metadata/-/metadata-9.12.0.tgz}
+    dev: false
+
+  /@vueuse/shared/9.12.0_vue@3.2.47:
+    resolution: {integrity: sha1-5ll9qACEy6j8PWVF9ML6mBe4BCg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/@vueuse/shared/-/shared-9.12.0.tgz}
+    dependencies:
+      vue-demi: 0.13.11_vue@3.2.47
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
+  /anymatch/3.1.3:
+    resolution: {integrity: sha1-eQxYsZuhcgqEIFtXxhjVrYUklz4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/anymatch/-/anymatch-3.1.3.tgz}
+    engines: {node: '>= 8'}
+    dependencies:
+      normalize-path: 3.0.0
+      picomatch: 2.3.1
+    dev: false
+
+  /async-validator/4.2.5:
+    resolution: {integrity: sha1-yW6jMypSFpnQr6rO7VEKVGVsYzk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/async-validator/-/async-validator-4.2.5.tgz}
+    dev: false
+
+  /asynckit/0.4.0:
+    resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/asynckit/-/asynckit-0.4.0.tgz}
+    dev: false
+
+  /axios/0.27.2:
+    resolution: {integrity: sha1-IHZYzIYhYG5YbIXbS0GnUOdW2XI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/axios/-/axios-0.27.2.tgz}
+    dependencies:
+      follow-redirects: 1.15.2
+      form-data: 4.0.0
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
+  /binary-extensions/2.2.0:
+    resolution: {integrity: sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/binary-extensions/-/binary-extensions-2.2.0.tgz}
+    engines: {node: '>=8'}
+    dev: false
+
+  /braces/3.0.2:
+    resolution: {integrity: sha1-NFThpGLujVmeI23zNs2epPiv4Qc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/braces/-/braces-3.0.2.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      fill-range: 7.0.1
+    dev: false
+
+  /chart.js/3.9.1:
+    resolution: {integrity: sha1-Or8sd1FpxMcSF6EHFjrHCFFZJLg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/chart.js/-/chart.js-3.9.1.tgz}
+    dev: false
+
+  /chokidar/3.5.3:
+    resolution: {integrity: sha1-HPN8hwe5Mr0a8a4iwEMuKs0ZA70=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/chokidar/-/chokidar-3.5.3.tgz}
+    engines: {node: '>= 8.10.0'}
+    dependencies:
+      anymatch: 3.1.3
+      braces: 3.0.2
+      glob-parent: 5.1.2
+      is-binary-path: 2.1.0
+      is-glob: 4.0.3
+      normalize-path: 3.0.0
+      readdirp: 3.6.0
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: false
+
+  /combined-stream/1.0.8:
+    resolution: {integrity: sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/combined-stream/-/combined-stream-1.0.8.tgz}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      delayed-stream: 1.0.0
+    dev: false
+
+  /csstype/2.6.21:
+    resolution: {integrity: sha1-LvuFt8xVyAAXxmpa18vZMf2jqQ4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/csstype/-/csstype-2.6.21.tgz}
+    dev: false
+
+  /csstype/3.1.1:
+    resolution: {integrity: sha1-hBtTLEXHWO5UahHVvXt7RzyMMLk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/csstype/-/csstype-3.1.1.tgz}
+    dev: false
+
+  /dayjs/1.11.7:
+    resolution: {integrity: sha1-SylpImQvcJmVRNEUSiwlcw/OY+I=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/dayjs/-/dayjs-1.11.7.tgz}
+    dev: false
+
+  /debug/4.3.4:
+    resolution: {integrity: sha1-Exn2V5NX8jONMzfSzdSRS7XcyGU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/debug/-/debug-4.3.4.tgz}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: false
+
+  /delayed-stream/1.0.0:
+    resolution: {integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/delayed-stream/-/delayed-stream-1.0.0.tgz}
+    engines: {node: '>=0.4.0'}
+    dev: false
+
+  /element-plus/2.2.30_vue@3.2.47:
+    resolution: {integrity: sha1-tZTvy9aWnz+IEwqh7fUMmBOdbnM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/element-plus/-/element-plus-2.2.30.tgz}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@ctrl/tinycolor': 3.6.0
+      '@element-plus/icons-vue': 2.0.10_vue@3.2.47
+      '@floating-ui/dom': 1.2.1
+      '@popperjs/core': /@sxzz/popperjs-es/2.11.7
+      '@types/lodash': 4.14.191
+      '@types/lodash-es': 4.17.6
+      '@vueuse/core': 9.12.0_vue@3.2.47
+      async-validator: 4.2.5
+      dayjs: 1.11.7
+      escape-html: 1.0.3
+      lodash: 4.17.21
+      lodash-es: 4.17.21
+      lodash-unified: 1.0.3_3ib2ivapxullxkx3xftsimdk7u
+      memoize-one: 6.0.0
+      normalize-wheel-es: 1.2.0
+      vue: 3.2.47
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+    dev: false
+
+  /engine.io-client/6.4.0:
+    resolution: {integrity: sha1-iM0wgmCcqG19PBLw50bRLbT0fJE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/engine.io-client/-/engine.io-client-6.4.0.tgz}
+    dependencies:
+      '@socket.io/component-emitter': 3.1.0
+      debug: 4.3.4
+      engine.io-parser: 5.0.6
+      ws: 8.11.0
+      xmlhttprequest-ssl: 2.0.0
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  /engine.io-parser/5.0.6:
+    resolution: {integrity: sha1-eBEkSvFz4VcpXeybJxjf5Cpk70U=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/engine.io-parser/-/engine.io-parser-5.0.6.tgz}
+    engines: {node: '>=10.0.0'}
+    dev: false
+
+  /esbuild-android-64/0.15.18:
+    resolution: {integrity: sha1-IKeuFBbI6q3pF/skU8ElkwLGN6U=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-android-64/-/esbuild-android-64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-android-arm64/0.15.18:
+    resolution: {integrity: sha1-nMDsYFgdatJnVo8pz0iV/92fLwQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-android-arm64/-/esbuild-android-arm64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-darwin-64/0.15.18:
+    resolution: {integrity: sha1-Qo4XMOqBnVAICPIg+8UgeuptRBA=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-darwin-64/-/esbuild-darwin-64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-darwin-arm64/0.15.18:
+    resolution: {integrity: sha1-tt/HeZEVopF/NZcL+8k65QJWszc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-freebsd-64/0.15.18:
+    resolution: {integrity: sha1-ThkNnC0eZxZGGa4wpDi+h9Xu2vI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-freebsd-64/-/esbuild-freebsd-64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-freebsd-arm64/0.15.18:
+    resolution: {integrity: sha1-GKTANE7iO9Wm0G0Yx24v1tP5FjU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-freebsd-arm64/-/esbuild-freebsd-arm64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-32/0.15.18:
+    resolution: {integrity: sha1-mjKXMe4HmxImK3k/uE7qdi6C4M4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-linux-32/-/esbuild-linux-32-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-64/0.15.18:
+    resolution: {integrity: sha1-Uyc4B1OXuZRGe1FOUkrrUgwZG2w=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-linux-64/-/esbuild-linux-64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-arm/0.15.18:
+    resolution: {integrity: sha1-5zSq8lmi49EJ1IhsnoHsDy/Zqcw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-linux-arm/-/esbuild-linux-arm-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-arm64/0.15.18:
+    resolution: {integrity: sha1-U3LnmTrC2o8GsroxNxDXIreobl0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-linux-arm64/-/esbuild-linux-arm64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-mips64le/0.15.18:
+    resolution: {integrity: sha1-wEh8FKk3GoTrCPqw4dewRadxBes=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-ppc64le/0.15.18:
+    resolution: {integrity: sha1-rwSK2U7tDOMvbVqHP3q+kRUBJQc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-riscv64/0.15.18:
+    resolution: {integrity: sha1-Qj7U5ZJ713+EK9VmlyF49CTUVeY=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-linux-riscv64/-/esbuild-linux-riscv64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-s390x/0.15.18:
+    resolution: {integrity: sha1-IdIeqpYqGDv7djEuWgHMWuSM6Os=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-linux-s390x/-/esbuild-linux-s390x-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-netbsd-64/0.15.18:
+    resolution: {integrity: sha1-rnVoL2DQhWCx/pSCv+AXPlEQuZg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-netbsd-64/-/esbuild-netbsd-64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-openbsd-64/0.15.18:
+    resolution: {integrity: sha1-eVkakKo7A+SGP5O+7A0rqyhT0Kg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-openbsd-64/-/esbuild-openbsd-64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-sunos-64/0.15.18:
+    resolution: {integrity: sha1-/VKKpdpTdLfh6T0275sHw9/tKXE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-sunos-64/-/esbuild-sunos-64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-windows-32/0.15.18:
+    resolution: {integrity: sha1-DpK2bs31Q1p2gTxLxczaBpb078M=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-windows-32/-/esbuild-windows-32-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-windows-64/0.15.18:
+    resolution: {integrity: sha1-D8dh14VBQoT8QI55FCJtM/gkINA=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-windows-64/-/esbuild-windows-64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-windows-arm64/0.15.18:
+    resolution: {integrity: sha1-W1vcVtNB0JIu6UllyJ7hIKaobrc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild-windows-arm64/-/esbuild-windows-arm64-0.15.18.tgz}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild/0.15.18:
+    resolution: {integrity: sha1-6olK2vP7wDbTIyCgDU1uSXii820=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/esbuild/-/esbuild-0.15.18.tgz}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@esbuild/android-arm': 0.15.18
+      '@esbuild/linux-loong64': 0.15.18
+      esbuild-android-64: 0.15.18
+      esbuild-android-arm64: 0.15.18
+      esbuild-darwin-64: 0.15.18
+      esbuild-darwin-arm64: 0.15.18
+      esbuild-freebsd-64: 0.15.18
+      esbuild-freebsd-arm64: 0.15.18
+      esbuild-linux-32: 0.15.18
+      esbuild-linux-64: 0.15.18
+      esbuild-linux-arm: 0.15.18
+      esbuild-linux-arm64: 0.15.18
+      esbuild-linux-mips64le: 0.15.18
+      esbuild-linux-ppc64le: 0.15.18
+      esbuild-linux-riscv64: 0.15.18
+      esbuild-linux-s390x: 0.15.18
+      esbuild-netbsd-64: 0.15.18
+      esbuild-openbsd-64: 0.15.18
+      esbuild-sunos-64: 0.15.18
+      esbuild-windows-32: 0.15.18
+      esbuild-windows-64: 0.15.18
+      esbuild-windows-arm64: 0.15.18
+    dev: true
+
+  /escape-html/1.0.3:
+    resolution: {integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/escape-html/-/escape-html-1.0.3.tgz}
+    dev: false
+
+  /estree-walker/2.0.2:
+    resolution: {integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/estree-walker/-/estree-walker-2.0.2.tgz}
+    dev: false
+
+  /fast-deep-equal/3.1.3:
+    resolution: {integrity: sha1-On1WtVnWy8PrUSMlJE5hmmXGxSU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz}
+    dev: false
+
+  /fill-range/7.0.1:
+    resolution: {integrity: sha1-GRmmp8df44ssfHflGYU12prN2kA=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/fill-range/-/fill-range-7.0.1.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      to-regex-range: 5.0.1
+    dev: false
+
+  /follow-redirects/1.15.2:
+    resolution: {integrity: sha1-tGCGQUS6Y/JoEJbydMTlcCbaLBM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/follow-redirects/-/follow-redirects-1.15.2.tgz}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: false
+
+  /form-data/4.0.0:
+    resolution: {integrity: sha1-k5Gdrq82HuUpWEubMWZNwSyfpFI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/form-data/-/form-data-4.0.0.tgz}
+    engines: {node: '>= 6'}
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      mime-types: 2.1.35
+    dev: false
+
+  /fsevents/2.3.2:
+    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/fsevents/-/fsevents-2.3.2.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    optional: true
+
+  /function-bind/1.1.1:
+    resolution: {integrity: sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/function-bind/-/function-bind-1.1.1.tgz}
+    dev: true
+
+  /glob-parent/5.1.2:
+    resolution: {integrity: sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/glob-parent/-/glob-parent-5.1.2.tgz}
+    engines: {node: '>= 6'}
+    dependencies:
+      is-glob: 4.0.3
+    dev: false
+
+  /has/1.0.3:
+    resolution: {integrity: sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/has/-/has-1.0.3.tgz}
+    engines: {node: '>= 0.4.0'}
+    dependencies:
+      function-bind: 1.1.1
+    dev: true
+
+  /immutable/4.2.4:
+    resolution: {integrity: sha1-gyYNUIiVJrS1MaXik3Cad/fFWio=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/immutable/-/immutable-4.2.4.tgz}
+    dev: false
+
+  /is-binary-path/2.1.0:
+    resolution: {integrity: sha1-6h9/O4DwZCNug0cPhsCcJU+0Wwk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/is-binary-path/-/is-binary-path-2.1.0.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      binary-extensions: 2.2.0
+    dev: false
+
+  /is-core-module/2.11.0:
+    resolution: {integrity: sha1-rUyz44Y+gUUjyW8/WNJsxXD/AUQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/is-core-module/-/is-core-module-2.11.0.tgz}
+    dependencies:
+      has: 1.0.3
+    dev: true
+
+  /is-extglob/2.1.1:
+    resolution: {integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/is-extglob/-/is-extglob-2.1.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /is-glob/4.0.3:
+    resolution: {integrity: sha1-ZPYeQsu7LuwgcanawLKLoeZdUIQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/is-glob/-/is-glob-4.0.3.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      is-extglob: 2.1.1
+    dev: false
+
+  /is-number/7.0.0:
+    resolution: {integrity: sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/is-number/-/is-number-7.0.0.tgz}
+    engines: {node: '>=0.12.0'}
+    dev: false
+
+  /kdbush/3.0.0:
+    resolution: {integrity: sha1-+EhHlNRwBMwthe06eTU9vgq8K/A=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/kdbush/-/kdbush-3.0.0.tgz}
+    dev: false
+
+  /lodash-es/4.17.21:
+    resolution: {integrity: sha1-Q+YmxG5lkbd1C+srUBFzkMYJ4+4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/lodash-es/-/lodash-es-4.17.21.tgz}
+    dev: false
+
+  /lodash-unified/1.0.3_3ib2ivapxullxkx3xftsimdk7u:
+    resolution: {integrity: sha1-gLHqwQ7S6wLtGJ8IYUopwn0HyJQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/lodash-unified/-/lodash-unified-1.0.3.tgz}
+    peerDependencies:
+      '@types/lodash-es': '*'
+      lodash: '*'
+      lodash-es: '*'
+    dependencies:
+      '@types/lodash-es': 4.17.6
+      lodash: 4.17.21
+      lodash-es: 4.17.21
+    dev: false
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/lodash/-/lodash-4.17.21.tgz}
+    dev: false
+
+  /magic-string/0.25.9:
+    resolution: {integrity: sha1-3n+fr5HvihyR0CwuUxTIJ3283Rw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/magic-string/-/magic-string-0.25.9.tgz}
+    dependencies:
+      sourcemap-codec: 1.4.8
+    dev: false
+
+  /memoize-one/6.0.0:
+    resolution: {integrity: sha1-slkbhx7YKUiu5HJ9xqvO7qyMEEU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/memoize-one/-/memoize-one-6.0.0.tgz}
+    dev: false
+
+  /mime-db/1.52.0:
+    resolution: {integrity: sha1-u6vNwChZ9JhzAchW4zh85exDv3A=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/mime-db/-/mime-db-1.52.0.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /mime-types/2.1.35:
+    resolution: {integrity: sha1-OBqHG2KnNEUGYK497uRIE/cNlZo=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/mime-types/-/mime-types-2.1.35.tgz}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-db: 1.52.0
+    dev: false
+
+  /ms/2.1.2:
+    resolution: {integrity: sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ms/-/ms-2.1.2.tgz}
+    dev: false
+
+  /nanoid/3.3.4:
+    resolution: {integrity: sha1-cwtn480J4t6s8DwCfIHJ2dvF6Ks=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/nanoid/-/nanoid-3.3.4.tgz}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
+  /normalize-path/3.0.0:
+    resolution: {integrity: sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/normalize-path/-/normalize-path-3.0.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /normalize-wheel-es/1.2.0:
+    resolution: {integrity: sha1-D6JZPWGfckWlQWUmGRBasHas8J4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/normalize-wheel-es/-/normalize-wheel-es-1.2.0.tgz}
+    dev: false
+
+  /path-parse/1.0.7:
+    resolution: {integrity: sha1-+8EUtgykKzDZ2vWFjkvWi77bZzU=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/path-parse/-/path-parse-1.0.7.tgz}
+    dev: true
+
+  /picocolors/1.0.0:
+    resolution: {integrity: sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/picocolors/-/picocolors-1.0.0.tgz}
+
+  /picomatch/2.3.1:
+    resolution: {integrity: sha1-O6ODNzNkbZ0+SZWUbBNlpn+wekI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/picomatch/-/picomatch-2.3.1.tgz}
+    engines: {node: '>=8.6'}
+    dev: false
+
+  /postcss/8.4.21:
+    resolution: {integrity: sha1-xjm3GaV+/DGHsToddlZ1SF9BNPQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/postcss/-/postcss-8.4.21.tgz}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.4
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+
+  /readdirp/3.6.0:
+    resolution: {integrity: sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/readdirp/-/readdirp-3.6.0.tgz}
+    engines: {node: '>=8.10.0'}
+    dependencies:
+      picomatch: 2.3.1
+    dev: false
+
+  /resolve/1.22.1:
+    resolution: {integrity: sha1-J8suu1P5GrtJRwqSi7p1WAZqwXc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/resolve/-/resolve-1.22.1.tgz}
+    hasBin: true
+    dependencies:
+      is-core-module: 2.11.0
+      path-parse: 1.0.7
+      supports-preserve-symlinks-flag: 1.0.0
+    dev: true
+
+  /rollup/2.79.1:
+    resolution: {integrity: sha1-vt7o+u98n5OiZHrAEIdI9Jfwgcc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/rollup/-/rollup-2.79.1.tgz}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /sass/1.58.2:
+    resolution: {integrity: sha1-7zxQmKAt0AbwmiNQsRTxrEReOM4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/sass/-/sass-1.58.2.tgz}
+    engines: {node: '>=12.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.2.4
+      source-map-js: 1.0.2
+    dev: false
+
+  /socket.io-client/4.6.0:
+    resolution: {integrity: sha1-RJJV0uD+Qp9atH7NPjsXFrADnBM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/socket.io-client/-/socket.io-client-4.6.0.tgz}
+    engines: {node: '>=10.0.0'}
+    dependencies:
+      '@socket.io/component-emitter': 3.1.0
+      debug: 4.3.4
+      engine.io-client: 6.4.0
+      socket.io-parser: 4.2.2
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  /socket.io-parser/4.2.2:
+    resolution: {integrity: sha1-HdOEAZ4lt6PTdId/SSqzTyrQ0gY=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/socket.io-parser/-/socket.io-parser-4.2.2.tgz}
+    engines: {node: '>=10.0.0'}
+    dependencies:
+      '@socket.io/component-emitter': 3.1.0
+      debug: 4.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /source-map-js/1.0.2:
+    resolution: {integrity: sha1-rbw2HZxi3zgBJefxYfccgm8eSQw=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/source-map-js/-/source-map-js-1.0.2.tgz}
+    engines: {node: '>=0.10.0'}
+
+  /source-map/0.6.1:
+    resolution: {integrity: sha1-dHIq8y6WFOnCh6jQu95IteLxomM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/source-map/-/source-map-0.6.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /sourcemap-codec/1.4.8:
+    resolution: {integrity: sha1-6oBL2UhXQC5pktBaOO8a41qatMQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz}
+    deprecated: Please use @jridgewell/sourcemap-codec instead
+    dev: false
+
+  /supercluster/7.1.5:
+    resolution: {integrity: sha1-ZabOSgN6lydndAYUwZBRtkuL5aM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/supercluster/-/supercluster-7.1.5.tgz}
+    dependencies:
+      kdbush: 3.0.0
+    dev: false
+
+  /supports-preserve-symlinks-flag/1.0.0:
+    resolution: {integrity: sha1-btpL00SjyUrqN21MwxvHcxEDngk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz}
+    engines: {node: '>= 0.4'}
+    dev: true
+
+  /to-fast-properties/2.0.0:
+    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/to-fast-properties/-/to-fast-properties-2.0.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /to-regex-range/5.0.1:
+    resolution: {integrity: sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/to-regex-range/-/to-regex-range-5.0.1.tgz}
+    engines: {node: '>=8.0'}
+    dependencies:
+      is-number: 7.0.0
+    dev: false
+
+  /vite/3.2.5_sass@1.58.2:
+    resolution: {integrity: sha1-3uVngXKooKs+VHrUFIw9VH+Q6Go=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/vite/-/vite-3.2.5.tgz}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: 0.15.18
+      postcss: 8.4.21
+      resolve: 1.22.1
+      rollup: 2.79.1
+      sass: 1.58.2
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vue-chart-3/3.1.8_chart.js@3.9.1+vue@3.2.47:
+    resolution: {integrity: sha1-TKTLoKUeooUaZXoTK8FL+MO6HaI=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/vue-chart-3/-/vue-chart-3-3.1.8.tgz}
+    peerDependencies:
+      chart.js: '=> ^3.1.0'
+      vue: '>= 3'
+    dependencies:
+      '@vue/runtime-core': 3.2.47
+      '@vue/runtime-dom': 3.2.47
+      chart.js: 3.9.1
+      csstype: 3.1.1
+      lodash-es: 4.17.21
+      vue: 3.2.47
+    dev: false
+
+  /vue-demi/0.13.11_vue@3.2.47:
+    resolution: {integrity: sha1-fZA2m9rol02HsZc1ZK05AYJBDZk=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/vue-demi/-/vue-demi-0.13.11.tgz}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: 3.2.47
+    dev: false
+
+  /vue-router/4.1.6_vue@3.2.47:
+    resolution: {integrity: sha1-twMDc34StIFFeNIdaNIWGEaTdaE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/vue-router/-/vue-router-4.1.6.tgz}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.0
+      vue: 3.2.47
+    dev: false
+
+  /vue/3.2.47:
+    resolution: {integrity: sha1-Prc2y8YG/IcDjbumoVRwfIo0z/A=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/vue/-/vue-3.2.47.tgz}
+    dependencies:
+      '@vue/compiler-dom': 3.2.47
+      '@vue/compiler-sfc': 3.2.47
+      '@vue/runtime-dom': 3.2.47
+      '@vue/server-renderer': 3.2.47_vue@3.2.47
+      '@vue/shared': 3.2.47
+    dev: false
+
+  /vue3-carousel/0.2.9_vue@3.2.47:
+    resolution: {integrity: sha1-zssCw0+Yf5WdrpwFaxN3MmI23c8=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/vue3-carousel/-/vue3-carousel-0.2.9.tgz}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: 3.2.47
+    dev: false
+
+  /vue3-google-map/0.15.0_vue@3.2.47:
+    resolution: {integrity: sha1-g9mWwjk0rgbNbT4Vj8LdRsp6GOE=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/vue3-google-map/-/vue3-google-map-0.15.0.tgz}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vue: '3'
+    dependencies:
+      '@googlemaps/js-api-loader': 1.15.1
+      '@googlemaps/markerclusterer': 2.0.15
+      fast-deep-equal: 3.1.3
+      vue: 3.2.47
+    dev: false
+
+  /vuex/4.1.0_vue@3.2.47:
+    resolution: {integrity: sha1-qhs+pcc4WBKwdMhvru7CIXhy42w=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/vuex/-/vuex-4.1.0.tgz}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.0
+      vue: 3.2.47
+    dev: false
+
+  /ws/8.11.0:
+    resolution: {integrity: sha1-ag02uO39n5bYslaD2y+Nfebo4UM=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/ws/-/ws-8.11.0.tgz}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: false
+
+  /xmlhttprequest-ssl/2.0.0:
+    resolution: {integrity: sha1-kTYMhrkU5n9E3OdpGAAnwNphjGc=, tarball: https://artifactory.rnd-hub.com:443/artifactory/api/npm/Npm-IMFamily-virt/xmlhttprequest-ssl/-/xmlhttprequest-ssl-2.0.0.tgz}
+    engines: {node: '>=0.4.0'}
+    dev: false
